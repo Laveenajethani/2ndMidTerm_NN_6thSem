@@ -65,7 +65,7 @@ def main():
 
     result=""
     if st.button("Predict"):
-      result=GenderVoicePredictor(meanfreq,sd,median,IQR,skew,kurt,mode,centroid,dfrange):
+      result=GenderVoicePredictor(meanfreq,sd,median,IQR,skew,kurt,mode,centroid,dfrange)
       st.success('Model has predicted that -> {}'.format(result))
     if st.button("About"):
       st.subheader("Laveena Jethani")
