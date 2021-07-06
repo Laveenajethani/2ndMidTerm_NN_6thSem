@@ -4,6 +4,7 @@ import pickle
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+import keras
 st.set_option('deprecation.showfileUploaderEncoding', False)
 
 # Load the pickled model
